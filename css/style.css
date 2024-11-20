@@ -7,7 +7,7 @@ html
 
 body
 { font: normal .80em arial, sans-serif;
-  background: transparent url(../images/background.jpg) repeat;
+  background: #FFF;
   color: #1D1D1D;}
 
 p
@@ -19,19 +19,18 @@ img
 
 h1, h2, h3, h4, h5, h6 
 { font: bold 175% arial, sans-serif;
-  color: #933A00;
+  color: #03AFF7;
   letter-spacing: -1px;
-  margin: 0 0 5px 0;
+  margin: 0 0 10px 0;
   padding: 15px 0 0 0;}
 
 h2
-{ font: bold 165% arial, sans-serif;
-  padding-bottom: 10px;}
+{ font: bold 165% arial, sans-serif;}
 
 h3
 { font: bold 125% arial, sans-serif;
   padding: 0 0 5px 0;
-  color: #933A00;}
+  color: #03AFF7;}
 
 h4, h5, h6
 { margin: 0;
@@ -76,71 +75,25 @@ ol li
 
 #header
 { width: 1000px;
-  height: 70px;
+  height: 140px;
+  padding-top: 20px;
   background: transparent;
   text-align: center;}
 
-#header_name
-{ width: 500px;
-  float: left;}  
- 
-#header H1
-{ width: 500px;
-  font: normal 300% arial, sans-serif;
-  color: #1D1D1D;
-  letter-spacing: -4px;
-  background: transparent;}
-
-span
-{ color: #933A00;}
-
-#header_slogan
-{ width: 500px;
-  float: right;
-  padding-top: 12px;}  
-  
-#header H2
-{ width: 500px;
-  font: italic 180% arial, sans-serif;
-  color: #1D1D1D;
-  letter-spacing: -2px;
-  background: transparent;}
-
-#menubar
-{ width: 1000px;
-  height: 50px;
-  text-align: center; 
-  margin-top: 20px;
-  color: #000;
-  background: transparent;} 
-  
-#contact{
-  width: 230px;
-  float: left;
-  height: 40px;
-  background: transparent;
-  padding: 10px 0 10px 20px;
-}
-
-#site_content
-{ width: 1000px;
-  overflow: hidden;
-  background: transparent url(../images/transparent.png) repeat;}  
-  
 #banner_image {
     margin: 0 auto;
-	width: 960px;
+	width: 920px;
 }
 #slider-wrapper {
     height: 250px;
 	background: transparent;
-	width: 960px;
+	width: 920px;
 }
 #slider {
     background: url("../images/loading.gif") no-repeat scroll 50% 50% transparent;
     height: 250px;
     position: relative;
-    width: 960px;
+    width: 920px;
 }
 #slider img {
     display: none;
@@ -247,11 +200,49 @@ a.nivo-nextNav {
 .nivo-controlNav a.active {
     background-position: 0 -22px;
 }
+  
+#header H1
+{ width: 1000px;
+  font: normal 450% arial, sans-serif;
+  color: #03AFF7;
+  letter-spacing: -4px;
+  background: transparent;}
+
+span
+{ color: #1D1D1D;}
+
+#header H2
+{ width: 1000px;
+  font: normal 160% arial, sans-serif;
+  color: #1D1D1D;
+  letter-spacing: -1px;
+  margin-top: -5px;
+  background: transparent;}
+
+#menubar
+{ width: 960px;
+  height: 50px;
+  color: #000;
+  background: transparent url(../images/menubar.png) no-repeat;} 
+  
+#contact{
+  width: 230px;
+  float: left;
+  height: 40px;
+  background: transparent;
+  padding: 10px 0 10px 20px;
+}
+
+#site_content
+{ width: 960px;
+  overflow: hidden;
+  margin-top: 20px;
+  background: transparent url(../images/pattern.png) repeat;}  
 
 .sidebar_container
 { float: left;
   width: 260px;
-  margin: 0px 0 20px 0;}
+  margin: 20px 0 20px 0;}
 
 .sidebar
 { float: right;
@@ -262,10 +253,14 @@ a.nivo-nextNav {
 .sidebar_item
 { font: normal 100% arial, sans-serif;
   padding: 0 15px 0 0;
+  margin-bottom: 20px;
   width: 201px;}
 
 .sidebar h2
-{ color: #933A00;}  
+{ height: 20px;
+  padding: 0 0 5px 5px;
+  color: #FFF;
+  background: #03AFF7;}  
   
 .sidebar h4
 { font-size: 125%;
@@ -275,7 +270,7 @@ a.nivo-nextNav {
 { color: #1D1D1D;}
 
 .sidebar a
-{ color: #933A00;}
+{ color: #03AFF7;}
 
 .sidebar a:hover
 { text-decoration: none;}
@@ -298,58 +293,30 @@ a.nivo-nextNav {
 
 .content_item
 { width: 680px;
-  margin: 0 0 20px 20px;
-  float: right;}
+  margin: 0 20px 20px 0;
+  float: left;}
 
 .content_image
 { width: 250px;
   padding: 0px 20px 20px 0px;
   float: left;}
   
-.container_header
-{ margin-top: 20px;
-  height: 15px;
-  margin-top: -130px;
-  width: 920px;
-  background: transparent url(../images/container_header.png) repeat-x top;}  
-  
 #footer
-{ padding: 0 20px 0 20px;
-  background: transparent;}
-  
-#footer_content
-{ width: 920px;
-  font: normal 120% arial, sans-serif;
-  letter-spacing: -1px;
-  height: 45px;
-  padding: 30px 0 5px 0;
+{ width: 960px;
+  font: normal 100% arial, sans-serif;
+  height: 30px;
+  margin-bottom: 40px;
+  padding: 20px 0 0px 0;
   text-align: center; 
-  background: transparent;
-  color: #1D1D1D;}
+  background: transparent url(../images/footer.png) no-repeat;
+  color: #FFF;}
 
 #footer a, #footer a:hover
-{ color: #1D1D1D;
+{ color: #FFF;
   text-decoration: underline;}
 
 #footer a:hover
 { text-decoration: none;}
-
-ul.links
-{ margin: 0;}
-
-ul.links li
-{ list-style: none;
-  padding: 8px 0;}
-
-ul.links li a, ul.links li a:hover
-{ padding: 0 0 0 28px;
-  background: transparent url(../images/page.png) no-repeat left center;
-  color: #06C4E6;
-  text-decoration: underline;} 
-
-ul.links li a:hover
-{ color: #5D5D5D;
-  text-decoration: none;} 
   
 /* from here: http://www.gmarwaha.com/blog/2007/08/23/lavalamp-for-jquery-lovers */
 .lavaLampWithImage {
@@ -357,7 +324,6 @@ ul.links li a:hover
   height: 30px;
   padding: 10px 0px 5px 0;
   overflow: hidden;
-  float: left;
   margin: 0 0px 0 0;
   width: 1000px;
 }
@@ -368,7 +334,7 @@ ul.links li a:hover
 }
 
 .lavaLampWithImage li.back {
-  background: transparent url(../images/transparent.png) repeat;
+  background: #03AFF7;
   height: 28px;
   z-index: 8;
   position: absolute;
@@ -377,11 +343,9 @@ ul.links li a:hover
 .lavaLampWithImage li a {
   font: normal 120% arial, sans-serif;
   text-decoration: none;
-  color: #1D1D1D;
-  letter-spacing: -1px;
+  color: #FFF;
   z-index: 10;
   display: block;
-  float: left;
   height: 60px;
   padding: 5px 0px 0px 35px;
   position: relative;
@@ -391,7 +355,7 @@ ul.links li a:hover
 .lavaLampWithImage li a:hover, .lavaLampWithImage li a:active, .lavaLampWithImage li a:visited {
   border: none;
 }
-/* 樣板 s1：文字紫色，字體大小 30px，粗體，置中對齊 */
+/* s1 樣板：文字紫色，字體大小30px，粗體，置中對齊 */
 .s1 {
   color: purple;
   font-size: 30px;
@@ -399,7 +363,7 @@ ul.links li a:hover
   text-align: center;
 }
 
-/* 樣板 s2：文字紅色，字體大小 30px，粗體，置中對齊 */
+/* s2 樣板：文字紅色，字體大小30px，粗體，置中對齊 */
 .s2 {
   color: red;
   font-size: 30px;
@@ -407,7 +371,7 @@ ul.links li a:hover
   text-align: center;
 }
 
-/* 樣板 s3：文字藍色，字體大小 30px，粗體，向左對齊 */
+/* s3 樣板：文字藍色，字體大小30px，粗體，向左對齊 */
 .s3 {
   color: blue;
   font-size: 30px;
@@ -415,7 +379,7 @@ ul.links li a:hover
   text-align: left;
 }
 
-/* 樣板 s4：文字咖啡色，字體大小 30px，粗體，向左對齊 */
+/* s4 樣板：文字咖啡色，字體大小30px，粗體，向左對齊 */
 .s4 {
   color: brown;
   font-size: 30px;
